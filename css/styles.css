@@ -10,8 +10,6 @@ h1 {
 
 h1#top {
  color: #black;
- /* color: #FF99BB;
- color: #FF6699; */
  font-size: 7em;
  text-align: center;
 
@@ -46,17 +44,7 @@ h5 {
 
 .active h3 {
    color: black;
-
 }
-/*
-.activeopposite{
- border: 4px solid black;
- border-radius: 5px;
- margin-left: 60px;
-}
-.activeopposite h3{
- color: blue;
-} */
 
 .player {
    /*color: ##FF6699;*/
@@ -94,12 +82,9 @@ p {
 }
 
 body {
-   /* background-image: url(..img/pigsduh.jpg); */
    background: #DC143C;
-   /*border: 10px solid #FF6699;*/
    color: #333;
    height: 100%;
-
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -108,8 +93,6 @@ body {
 }
 
 .btn {
- /*margin-right: 20px;*/
- /*border-width: 2px !important;*/
  padding: 10px 25px;
 }
 
@@ -125,4 +108,28 @@ body {
    background: black;
    border: #FF99BB;
    margin-left: 15px;
+}
+
+#jumbo1{
+  background-image: url(../img/pig1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#jumbo2{
+  background-image: url(../img/pig4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: black;
+}
+#jumbo3{
+  background-image: url(../img/pig2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: black;
+}
+img{
+  border-radius: 50%;
 }
