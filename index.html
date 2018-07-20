@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+ <link href="css/styles.css" rel="stylesheet" type="text/css">
+ <link href='https://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+
+ <title>Pig Dice</title>
+</head>
+
+<body>
+<div class="jumbotron text-center" id="jumbo1">
+       <h1 id="top">Pig Dice</h1>
+       <h3>The Game Of Chance!</h3>
+   </div>
+   <div class="jumbotron text-center" id="jumbo2">
+     <h2><strong>How To Play !</strong></h2>
+   <div class="row">
+     <div class="col-md-6 text-center">
+       <p>
+         Hello! Welcome to a game of Pig Dice. The aim is to score 100 points before your competitor does. This game is played with a single six-sided die. Keep on rolling the die until you are happy with the number of points you have scored, and hold your score to accumulate points. The first player to reach a higher score closer to 100 wins! Please note, however, that if you roll "1", you will lose all the points you have accumulated during your turn, and you lose your turn. Ready player one? Let the games begin!
+       </p>
+     </div>
+     <div class="col-md-6 text-center">
+       <img src="img/pigdice.jpg" alt="pic of pig dice">
+     </div>
+   </div>
+      </div>
+      <div class="jumbotron" id="jumbo3">
+   <div class="row" id="players">
+     <div class="col-md-6 text-center" id="player1">
+     <h3><span class="player">Player 1</span> <br><br>Score: <span id="player1-score"></span></h3>
+     </div>
+     <div class="col-md-6 text-center" id="player2">
+     <h3><span class="player">Player 2</span> <br><br>Score: <span id="player2-score"></span></h3>
+     </div>
+   </div>
+   <div class="text-center">
+         <h3>Turn Total: <span id="roll-total"></span></h3>
+         <h3>Current Roll: <span id="roll"></span></h3>
+       </div>
+   <div class="row">
+     <div class="col-md-6 text-center">
+       <form id="roll">
+           <button type="submit" class="btn btn-default btn-lg">Roll Your Dice Here!</button>
+       </form>
+     </div>
+     <div class="col-md-6 text-center">
+       <form id="end-turn">
+         <button type="submit" class="btn btn-default btn-lg "> Hold Your Score Here!</button>
+       </form>
+     </div>
+   </div>
+     </div>
+
+   <!-- JAVASCRIPT -->
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+   <script src="js/scripts.js"></script>
+
+   <!-- END OF JAVASCRIPT -->
+</body>
+
+</html>
