@@ -94,6 +94,7 @@ body {
 
 .btn {
  padding: 10px 25px;
+ border-radius: 50%;
 }
 
 #roll .btn {
